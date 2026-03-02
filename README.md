@@ -7,8 +7,9 @@ Il progetto implementa e confronta due approcci modellistici basati su Programma
 1. **Full Graph**: Considera tutte le connessioni possibili tra le turbine .
 2. **Mesh A+ (Delaunay + Diagonali)**: Un approccio geometrico avanzato che riduce lo spazio di ricerca mantenendo solo le connessioni rilevanti (Triangolazione di Delaunay e test di intersezione), garantendo l'ottimo globale con tempi di calcolo drasticamente inferiori per istanze di grandi dimensioni.
 
-## Requisiti
 Il modello matematico è stato implementato utilizzando il solver **Gurobi**.
+
+Si Inizia con il file **Data-set.py**
 
 
 ```bash
